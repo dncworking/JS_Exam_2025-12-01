@@ -8,7 +8,7 @@ function processNotifications(notifications) {
     } else if (n.priority === 3) {
       type = "critical";
     } else if (n.priority === 2) {
-      type = "critical";
+      type = "warning";
     } else {
       type = "normal";
     }
